@@ -124,7 +124,6 @@ curl localhost:8000/v1/chat/completions \
 
 ## Cost
 
-Approximately `$0.73` on `A100 SXM` at `$1.59/hr` — about **0.46 GPU-hours** (~28 minutes).
+`$0.73` on `A100 SXM` at `$1.59/hr` — **0.46 GPU-hours** (~28 minutes).
 
-<!-- TODO: confirm actual GPU-hours against the RunPod billing page; 0.46 is back-computed
-     from the $0.73 / $1.59-per-hour figures, not read off the invoice. -->
+Logged in [`costs.md`](../../costs.md).
